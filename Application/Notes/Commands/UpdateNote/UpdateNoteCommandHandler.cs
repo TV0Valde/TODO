@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using TODO.Application.Common.Exceptions;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using TODO.Core.Models;
 using TODO.Application.Notes.Commands.CreateNote;
 

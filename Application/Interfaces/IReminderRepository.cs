@@ -1,6 +1,6 @@
 ﻿using TODO.Core.Models;
 
-namespace TODO.Persistence.Interfaces
+namespace TODO.Application.Interfaces
 {
     public interface IReminderRepository
     {
@@ -19,6 +19,6 @@ namespace TODO.Persistence.Interfaces
         Task SetTagsAsync(int reminderId, List<int> TagIds);
 
         bool TitleExist(string title);
-       
+
     }
 }

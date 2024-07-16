@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TODO.Persistence;
-using TODO.Persistence.Interfaces;
-using TODO.Application.Repository;
+using TODO.Persistence.Repository;
+using TODO.Application.Interfaces;
 using System.Reflection;
 using TODO.WebApi.Middleware;
 using System.Text.Json.Serialization;

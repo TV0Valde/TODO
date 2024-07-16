@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using TODO.Application.Common.Exceptions;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using TODO.Core.Models;
 
 namespace TODO.Application.Tags.Queries.GetTagByIdQuery

@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 namespace TODO.Application.Notes.Commands.CreateNote
 {
     public class CreateNoteCommandValidator :AbstractValidator<CreateNoteCommand>

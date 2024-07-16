@@ -1,6 +1,7 @@
 ﻿using TODO.Core.Models;
 
-namespace TODO.Core.Repositories.Interfaces { 
+namespace TODO.Application.Interfaces
+{
     public interface ITagRepository
     {
         Task<IEnumerable<Tag>> GetAllAsync();
@@ -14,6 +15,6 @@ namespace TODO.Core.Repositories.Interfaces {
         Task SaveAsync();
 
         bool NameExist(string name);
-      
+
     }
 }

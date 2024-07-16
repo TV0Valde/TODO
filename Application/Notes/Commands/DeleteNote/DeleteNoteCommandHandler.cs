@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;

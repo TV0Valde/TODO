@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
-using TODO.Persistence.Interfaces;
-using TODO.Application.Repository;
+using TODO.Application.Interfaces;
+
 namespace TODO.Application.Reminders.Commands.CreateReminder
 {
     public class CreateReminderCommandValidator : AbstractValidator<CreateReminderCommand>

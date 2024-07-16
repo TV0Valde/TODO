@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using TODO.Core.Models;
 using TODO.Application.Notes.Commands.CreateNote;
 using TODO.Application.Common.Exceptions;

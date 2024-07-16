@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using TODO.Core.Models;
 using System.Collections.Generic;
 using System.Threading;

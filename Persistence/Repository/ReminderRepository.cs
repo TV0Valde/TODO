@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TODO.Core.Models;
-using TODO.Persistence.Interfaces;
+using TODO.Application.Interfaces;
 using TODO.Application.Common.Exceptions;
 using TODO.Persistence;
 
-namespace TODO.Application.Repository
+namespace TODO.Persistence.Repository
 {
     public class ReminderRepository : IReminderRepository
     {
